@@ -1,0 +1,39 @@
+# Dependencies
+frontend/node_modules/
+backend/.venv/
+venv/
+.venv/
+
+# Build output
+frontend/dist/
+
+# Environment and secrets (never commit API keys)
+backend/.env
+.env
+.env.local
+.env.*.local
+
+# Python
+backend/__pycache__/
+**/__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.pytest_cache/
+.mypy_cache/
+
+# Local database (user-specific data)
+backend/debate_bot.db
+*.db-journal
+
+# Logs and OS
+*.log
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE (optional — remove if you want to share editor settings)
+.idea/
+*.swp
+*.swo
